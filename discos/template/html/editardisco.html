@@ -1,0 +1,18 @@
+<div class="editar-disco-content">
+    <form method='POST' enctype='multipart/form-data'>
+        <input type="hidden" name="ruta" value="disco" />
+        <input type="hidden" name="accion" value="doedit" />
+        <input type="hidden" name="idDisco" value="{idDisco}" />
+        <input type="hidden" name="idAutor" value="{idAutor}" />
+        
+        <h1>Editar disco: <em>{title}</em></h1>
+        <input type="text" name="title" value="{title}" placeholder=" Titulo" class="in-txt" /><br/>
+        <input type="text" name="nombre" value="{autor}" placeholder=" Autor" class="in-txt" /><br/>
+        
+        <h1>Portada</h1>
+        <input id="txt" type="text" class="file_input" value=" Seleccionar archivo" onclick ="javascript:document.getElementById('file').click();">
+        <input id="file" type="file" class="file_input" style='visibility: hidden;' name="path" onchange="ChangeText(this, 'txt');"/>
+                
+        <input type="submit" value="Enviar" class="in-btn" />
+    </form>
+</div>

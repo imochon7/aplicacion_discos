@@ -1,0 +1,36 @@
+<script>
+    var strJson = '{ "id" : 1, "idusuario" : 23, "texto" : "9 de enero", "media" : {"titulo" : "foto", "tipo" : "jpg"}, "detalles" : ["uno", "otro"], "otros" : [{"t1" : "f", "t2" : "j"}, {"t1" : "f2", "t2" : "j2"}, {"t1" : "f3", "t2" : "j3"}]}';
+
+    var objJson = JSON.parse(strJson);
+
+    document.write(objJson.idusuario);//23
+    document.write(objJson.detalles[1]);//otro
+</script>
+
+<div>
+    <input type="button" value="ajax!" id="btAjax">
+</div>
+
+<script>
+    (function(){
+        var btAjax = document.getElementById('btAjax');
+        btAjax.addEventListener('click', function(){
+            var peticionAsincrona = new XMLHttpRequest();
+            peticionAsincrona.open("GET", "pagina.php?buscar=dato", true);
+            peticionAsincrona.responseType = '';
+            peticionAsincrona.send();
+            peticionAsincrona.onreadystatechange(function(){ //onload
+                if (peticionAsincrona.readyState === 4) {//0-unsent, 1-opened, 2-headers_received, 3-loading, 4-done
+                    if (peticionAsincrona.status === 200) {//200-ok
+                        peticionAsincrona.response;
+                        peticionAsincrona.responseText;
+                        peticionAsincrona.responseXML;
+                        
+                    } else {
+                        //error
+                    }
+                }
+            });
+        });
+    })();
+</script>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="{plantilla}/css/materialize.min.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="{plantilla}/css/estilo.css" type="text/css" rel="stylesheet" media="screen, projection"/>
+        <link href="./estilos/estilo.css" type="text/css" rel="stylesheet" />
+        <link rel="icon" href="{plantilla}/img/favicon-32x32.png" sizes="32x32">
+        <title>{titulo}</title>
+    </head>
+    <body>
+        <!-- ventanas modales -->
+<!-- ventanas modales -->
+<!-- login -->
+<div id="vLogin" class="modal modal-fixed-footer">
+    <form action="" method="post">
+        <input type="hidden" name="ruta" value="usuario">
+        <input type="hidden" name="accion" value="dologin">
+        <div class="modal-content">
+            <h4>Iniciar sesión</h4>
+            <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+                <input required id="email" type="email" name="email" class="validate">
+                <label for="email">Correo electrónico</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <input required id="password" type="password" name="password" class="validate">
+                <label for="password">Clave de acceso</label>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
+            <input type="submit" class="modal-action waves-effect waves-green btn-flat" value="Iniciar sesión">
+        </div>
+    </form>
+</div>
+<!-- registro -->
+<div id="vRegistro" class="modal modal-fixed-footer">
+    <form>
+        <input type="hidden" name="ruta" value="usuario">
+        <input type="hidden" name="accion" value="doinsert">
+        <div class="modal-content">
+            <h4>Registro</h4>
+            <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+                <input required id="email2" type="email" name="email" class="validate">
+                <label for="email2">Correo electrónico</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <input required id="password3" type="password" name="password" class="validate">
+                <label for="password3">Clave de acceso</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <input required id="password4" type="password" name="password2" class="validate">
+                <label for="password4">Repite la clave de acceso</label>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
+            <input type="submit" class="waves-effect waves-green btn-flat" value="Registrarse">
+        </div>
+    </form>
+</div>
+<!-- ventanas modales -->
+<!-- ventanas modales -->
+        <!-- navegacion -->
+        <nav class="light-blue lighten-1" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">{titulo}</a>
+                <!-- 
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="modal-trigger waves-effect waves-light btn" href="#vLogin">Acceso</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a class="modal-trigger waves-effect waves-light btn" href="#vLogin">Acceso</a></li>
+                </ul>
+                -->
+                {archivo-acceso}
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <!-- navegacion -->
+
+        <!-- titulo -->
+        <!--<div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <br><br>
+                <h1 class="header center orange-text">{titulo}</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">{tituloLargo}</h5>
+                </div>
+                <div class="row center">
+                    <a href="#vRegistro" id="download-button" class="modal-trigger btn-large waves-effect waves-light orange">Regístrate</a>
+                </div>
+                <br><br>
+            </div>
+        </div>-->
+        {archivo-titulo}
+        <!-- titulo -->
+
+        <!-- contenido -->
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    {archivo-contenido}
+                </div>
+            </div>
+        </div>
+        <!-- contenido -->
+        
+        <!-- pie -->
+        <footer class="page-footer orange">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Company Bio</h5>
+                        <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Settings</h5>
+                        <ul>
+                            <li><a class="white-text" href="#!">Link 1</a></li>
+                            <li><a class="white-text" href="#!">Link 2</a></li>
+                            <li><a class="white-text" href="#!">Link 3</a></li>
+                            <li><a class="white-text" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Connect</h5>
+                        <ul>
+                            <li><a class="white-text" href="#!">Link 1</a></li>
+                            <li><a class="white-text" href="#!">Link 2</a></li>
+                            <li><a class="white-text" href="#!">Link 3</a></li>
+                            <li><a class="white-text" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                </div>
+            </div>
+        </footer>
+        <!-- contenido -->
+
+        <!-- scripts -->
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="{plantilla}/js/materialize.min.js"></script>
+        <script src="{plantilla}/js/init.js"></script>
+        <script src="./js/eventoborrar.js"></script>
+        <!-- scripts -->
+    </body>
+</html>

@@ -1,0 +1,70 @@
+http://www.w3schools.com/xml/ajax_intro.asp
+
+AJAX is a developer's dream, because you can:
+
+  Update a web page without reloading the page
+  Request data from a server - after the page has loaded
+  Receive data from a server - after the page has loaded
+  Send data to a server - in the background
+
+//clase pojo
+function json() {
+    $str = '';
+    foreach ($this as $key => $value) {
+        $str .= '"' . $key . '" : ' . json_encode(htmlspecialchars_decode($value)) . ',';
+    }
+    return '{' . substr($str, 0, -1) . '}';
+}
+
+//clase manage
+function jsonList(array $list) {
+    $r = '';
+    foreach($list as $objeto) {
+        $r .= $objeto->json() . ',';
+    }
+    return '[' . substr($r, 0, -1) . ']';
+}
+
+//funciones php
+$objetoPhp = json_decode($strJson);
+$strJson = json_encode($objetoPhp);
+
+//javascript
+//get
+var peticionAsincrona = new XMLHttpRequest();
+peticionAsincrona.open("GET", "pagina.php?buscar=dato", true);
+peticionAsincrona.send();
+
+//post
+var peticionAsincrona = new XMLHttpRequest();
+peticionAsincrona.open("POST", "pagina.php", true);
+peticionAsincrona.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+peticionAsincrona.send("buscar=dato");
+
+//responseType
+peticionAsincrona.responseType = "";
+//"arraybuffer", "blob", "document", "json", "text", "" (default)
+//"json" -> this.peticion.response
+
+//parametros
+encodeURIComponent(), encodeURI()
+
+//onreadystatechange
+peticionAsincrona.onreadystatechange = function () {//onload
+    if (peticionAsincrona.readyState === 4) {//0-unsent, 1-opened, 2-headers_received, 3-loading, 4-done
+        if (peticionAsincrona.status === 200) {//200-ok
+            var respuesta;
+            //1 xml
+            respuesta = peticionAsincrona.responseXML;
+            //2 json
+            respuesta = peticionAsincrona.responseText;
+            respuesta = JSON.parse(peticionAsincrona.responseText);
+            //3 json (responseType)
+            respuesta = peticionAsincrona.response;
+        } else {
+            //error
+        }
+    }
+};
+
+https://learn.jquery.com/ajax/jquery-ajax-methods/

@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'SourceCodePro-Regular';
+    src: url('../fonts/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+em{
+    color: dodgerblue;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+hr{
+    background-color: white;
+    height: 2px;
+}
+
+
+/*MENU*/
+
+.menu-app{
+    flex: 1;
+    background-color: #303130;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.menu-app a{
+    text-decoration: none;
+    font-family: 'SourceCodePro-Regular';
+    font-size: 1em;
+    color: white;
+    margin: 10px 0;
+}
+
+.menu-app a:hover{
+    color: dodgerblue;
+}
+
+.menu-app hr{
+    height: 1px;
+    background-color: #777;
+    
+}
+
+.menu-disco{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-usuario{
+    display: flex;
+    flex-direction: column;
+}
+
+/*MENUDISCOBUSCAR*/
+
+.search-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.buscar{
+    flex: 3;
+    font-family: 'SourceCodePro-Regular';
+    font-size: 1em;
+    background-color: #303130;
+    color: white;
+    border: 1px solid #777;
+}
+
+.buscar:hover{
+    border-color: dodgerblue;
+}
+
+.menu-submit{
+    flex: 1;
+    font-family: 'SourceCodePro-Regular';
+    font-size: 1em;
+    background-color: #777;
+    color: #252525;
+    border: 1px solid #777;
+}
+
+.menu-submit:hover{
+    background-color: dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    margin: 20px;
+}
+
+.opcion{
+    font-family: 'SourceCodePro-Regular';
+    font-size: 1em;
+    color: white;
+}
+
+/*DISCOS*/
+
+.album{
+    width: 300px;
+    height: 450px;
+    
+    
+    border: 5px solid #252525;
+    
+}
+
+.album > hr{
+    height: 1px;
+    background-color: #777;
+}
+
+.cont-img{
+    width: 300px;
+    height: 300px;
+}
+
+.cont-img > img{
+    width: 300px;
+    height: 300px;
+}
+
+h1, h3{
+    font-family: 'SourceCodePro-Regular';
+    font-size: 1em;
+    color: white;
+    margin: 5px;
+}
+
+.opciones{
+    height: 20px;
+    background-color: #303130;
+}
+
+.opciones ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.opciones a{
+    text-decoration: none;
+    font-family: 'SourceCodePro-Regular';
+    font-size: 0.9em;
+    color: white;
+    line-height: 10px;
+}
+
+.opciones a:hover{
+    color: dodgerblue;
+}
+
+/*VERDISCOS*/
+
+.disco-container{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.verdisco-album{
+    
+}
+
+.verdisco-album > img{
+    width: 500px;
+    height: 500px;
+}
+
+.verdisco-info{
+    align-self: flex-start;
+}
+
+/*USUARIOS*/
+
+.lista-de-usuarios{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.lista-content{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.lista-content hr{
+    height: 1px;
+    background-color: #777;
+    margin: 10px 0;
+}
+
+.user-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dotted transparent;
+}
+
+.user-row:hover{
+    border-bottom-color: dodgerblue;
+}
+
+.user-row-op{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-row-op a{
+    text-decoration: none;
+    font-family: 'SourceCodePro-Regular';
+    font-size: 1em;
+    color: #777;
+    margin-left: 50px;
+}
+
+.user-row a:hover{
+    color: dodgerblue;
+}
+
+
+.login-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.login-content > form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.editar-disco-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.editar-disco-content > form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.alta-disco-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.alta-disco-content > form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.file_input{
+    width: 100%;
+    font-family: 'SourceCodePro-Regular';
+    font-size: 1em;
+    background-color: #777;
+    color: #252525;
+    border: 1px solid #777;
+    margin: 5px 0;
+}
+
+.file_input:hover{
+    background-color: dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+}
+
+/*AÑADIR USUARIO*/
+
+.alta-usuario-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.alta-usuario-content > form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.in-txt{
+    width: 100%;
+    font-family: 'SourceCodePro-Regular';
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color: #252525;
+    color: white;
+    border: 1px solid #777;
+    margin: 5px 0;
+}
+
+.in-txt:hover{
+    border-color: dodgerblue;
+}
+
+.in-btn{
+    width: 20%;
+    font-family: 'SourceCodePro-Regular';
+    font-size: 1em;
+    background-color: #777;
+    color: #252525;
+    border: 1px solid #777;
+    margin: 5px 0;
+    align-self: flex-end;
+}
+
+.in-btn:hover{
+    background-color: dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+    cursor: pointer;
+}
+
+/*DESKTOP*/
+
+.desktop{
+    flex: 8;
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+/*PAGINACION*/
+
+.nav{
+    width: 100%;
+    height: 40px;
+    
+}
+
+.pag-nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-element{
+    text-decoration: none;
+    font-family: 'SourceCodePro-Regular';
+    font-size: 0.9em;
+    color: white;
+    line-height: 10px;
+}
+
+.nav-element:hover{
+    color: dodgerblue;
+}

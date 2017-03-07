@@ -1,0 +1,58 @@
+<div>
+    <input type="text" id="valor1" placeholder="Posicion del Nombre" />
+    <input type="text" id="valor2" placeholder="Posicion del Apellido" />
+    <input type="button" value="ajaxGET!" id="btAjax">
+    <input type="button" value="ajaxPOST!" id="btAjaxPOST">
+    <p id="respuesta"></p>
+</div>
+<script>
+    (function() {
+
+        function getCampo(idInput) {
+            return document.getElementById(idInput).value;
+        }
+        // var ipValor1 = document.getElementById('valor1');
+        // var ipValor2 = document.getElementById('valor2');
+        var pRespuesta = document.getElementById('respuesta');
+        var btAjax = document.getElementById('btAjax');
+        var btAjaxPOST = document.getElementById('btAjaxPOST');
+
+        btAjaxPOST.addEventListener('click', function() {
+            var peticionAsincrona = new XMLHttpRequest();
+            peticionAsincrona.open("POST", "getnombre.php", true);
+            peticionAsincrona.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+            peticionAsincrona.responseType = "json";
+            peticionAsincrona.onreadystatechange = function() {
+                if (peticionAsincrona.readyState === 4) {
+                    if (peticionAsincrona.status === 200) {
+                        var respuesta = peticionAsincrona.response;
+                        pRespuesta.textContent = respuesta.nombre + " " + respuesta.apellido;
+                    }
+                    else {}
+                }
+            }
+            peticionAsincrona.send("nombre=" + encodeURI(getCampo("valor1")) + "&apellido=" + encodeURI(getCampo("valor2")));
+        });
+
+        btAjax.addEventListener('click', function() {
+            var peticionAsincrona = new XMLHttpRequest();
+            // var v1 = ipValor1.value;
+            // var v2 = ipValor2.value;
+            peticionAsincrona.open("GET", "getnombre.php?nombre=" + encodeURI(getCampo("valor1")) + "&apellido=" + encodeURI(getCampo("valor2")));
+            peticionAsincrona.responseType = "json";
+            peticionAsincrona.onreadystatechange = function() {
+                if (peticionAsincrona.readyState === 4) {
+                    if (peticionAsincrona.status === 200) {
+                        //var respuesta = JSON.parse(peticionAsincrona.responseText);
+                        var respuesta = peticionAsincrona.response;
+                        pRespuesta.textContent = respuesta.nombre + " " + respuesta.apellido;
+                        //respuesta = peticionAsincrona.response;
+                    }
+                    else {}
+                    //algo
+                }
+            }
+            peticionAsincrona.send();
+        });
+    })();
+</script>

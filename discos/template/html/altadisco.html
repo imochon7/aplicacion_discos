@@ -1,0 +1,17 @@
+<div class="alta-disco-content">
+    <form method='POST' enctype='multipart/form-data'>
+        <h1>Añadir disco</h1>
+        <input type="hidden" name="ruta" value="disco" />
+        <input type="hidden" name="accion" value="doinsert" />
+        
+        <input type="text" name="title" value="" placeholder=" Titulo" class="in-txt" /><br/>
+        <input type="text" name="nombre" value="" placeholder=" Autor" class="in-txt" /><br/>
+        
+        <h1>Portada</h1>
+        
+        <input id="txt" type="text" class="file_input" value=" Seleccionar archivo" onclick ="javascript:document.getElementById('file').click();">
+        <input id="file" type="file" class="file_input" style='visibility: hidden;' name="path" onchange="ChangeText(this, 'txt');"/>
+                
+        <input type="submit" value="Enviar" class="in-btn" />
+    </form>
+</div>

@@ -1,0 +1,23 @@
+<a href="?accion=login">Acceso</a>
+<hr>
+<div class="menu-disco">
+    <a href="?ruta=disco&accion=view_lista_discos">Lista de discos</a>
+    <a href="?ruta=disco&accion=view_lista_discos_titulo">Ordenar por titulo</a>
+    <a href="?ruta=disco&accion=view_lista_discos_autor">Ordenar por autor</a>
+</div>
+<div class="menu-disco-buscar">
+    <form class="menu-form">
+        <input type="hidden" name="ruta" value="disco" />
+        <input type="hidden" name="accion" value="view_search" />
+        
+        <div class="search-input">
+            <input type="text" name="search" class="buscar" />
+            <input type="submit" class="menu-submit" value="Buscar" />
+        </div>
+        
+        <div class="menu-disco-opciones">
+            <input type="radio" id="radio1" class="radio-op" name="radio" value="titulo" checked="checked" ><label for="radio1" class="opcion">Titulo</label>
+            <input type="radio" id="radio2" class="radio-op" name="radio" value="autor" ><label for="radio2" class="opcion">Autor</label>
+        </div>
+    </form>
+</div>

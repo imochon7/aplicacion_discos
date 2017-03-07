@@ -1,0 +1,36 @@
+<!-- ventanas modales -->
+<!-- perfil -->
+<div id="vPerfil" class="modal modal-fixed-footer">
+    <form>
+        <input type="hidden" name="ruta" value="usuario">
+        <input type="hidden" name="accion" value="doeditperfil">
+        <div class="modal-content">
+            <h4>Perfil</h4>
+            <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+                <input readonly id="email" value="{correo}" type="email" name="email" class="validate">
+                <label for="email2">Correo electrónico</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <input required id="password1" type="password" name="oldpassword" class="validate">
+                <label for="password3">Clave de acceso anterior</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <input required id="password2" type="password" name="password" class="validate">
+                <label for="password3">Clave de acceso</label>
+            </div>
+            <div class="input-field">
+                <i class="material-icons prefix">lock</i>
+                <input required id="password3" type="password" name="password2" class="validate">
+                <label for="password4">Repite la clave de acceso</label>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
+            <input type="submit" class="waves-effect waves-green btn-flat" value="Editar perfil">
+        </div>
+    </form>
+</div>
+<!-- ventanas modales -->

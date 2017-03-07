@@ -1,0 +1,880 @@
+[25-Oct-2016 12:12:31 UTC] PHP Fatal error:  Call to a member function getData() on a non-object in /home/ubuntu/workspace/proyecto/clases/ViewDiferente.php on line 6
+[25-Oct-2016 12:12:31 UTC] PHP Stack trace:
+[25-Oct-2016 12:12:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto/index.php:0
+[25-Oct-2016 12:12:31 UTC] PHP   2. FrontController->output() /home/ubuntu/workspace/proyecto/index.php:10
+[25-Oct-2016 12:12:31 UTC] PHP   3. ViewDiferente->render() /home/ubuntu/workspace/proyecto/clases/FrontController.php:31
+[25-Oct-2016 12:12:54 UTC] PHP Fatal error:  Call to a member function getData() on a non-object in /home/ubuntu/workspace/proyecto/clases/ViewDiferente.php on line 6
+[25-Oct-2016 12:12:54 UTC] PHP Stack trace:
+[25-Oct-2016 12:12:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto/index.php:0
+[25-Oct-2016 12:12:54 UTC] PHP   2. FrontController->output() /home/ubuntu/workspace/proyecto/index.php:10
+[25-Oct-2016 12:12:54 UTC] PHP   3. ViewDiferente->render() /home/ubuntu/workspace/proyecto/clases/FrontController.php:31
+[25-Oct-2016 12:24:27 UTC] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home/ubuntu/workspace/proyecto/clases/ViewGato.php on line 3
+[25-Oct-2016 12:24:27 UTC] PHP Stack trace:
+[25-Oct-2016 12:24:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto/index.php:0
+[25-Oct-2016 12:24:27 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/proyecto/index.php:8
+[25-Oct-2016 12:24:27 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/proyecto/index.php:20
+[25-Oct-2016 12:24:27 UTC] PHP   4. AutoLoad::load() /home/ubuntu/workspace/proyecto/index.php:20
+[25-Oct-2016 12:28:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home/ubuntu/workspace/proyecto/clases/ViewGato.php on line 3
+[25-Oct-2016 12:28:28 UTC] PHP Stack trace:
+[25-Oct-2016 12:28:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto/index.php:0
+[25-Oct-2016 12:28:28 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/proyecto/index.php:8
+[25-Oct-2016 12:28:28 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/proyecto/index.php:20
+[25-Oct-2016 12:28:28 UTC] PHP   4. AutoLoad::load() /home/ubuntu/workspace/proyecto/index.php:20
+[25-Oct-2016 12:28:49 UTC] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home/ubuntu/workspace/proyecto/clases/ControllerGato.php on line 3
+[25-Oct-2016 12:28:49 UTC] PHP Stack trace:
+[25-Oct-2016 12:28:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto/index.php:0
+[25-Oct-2016 12:28:49 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/proyecto/index.php:8
+[25-Oct-2016 12:28:49 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/proyecto/index.php:21
+[25-Oct-2016 12:28:49 UTC] PHP   4. AutoLoad::load() /home/ubuntu/workspace/proyecto/index.php:21
+[25-Oct-2016 12:29:02 UTC] PHP Fatal error:  Call to undefined method ViewGato::getModelGato() in /home/ubuntu/workspace/proyecto/clases/ViewGato.php on line 6
+[25-Oct-2016 12:29:02 UTC] PHP Stack trace:
+[25-Oct-2016 12:29:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto/index.php:0
+[25-Oct-2016 12:29:02 UTC] PHP   2. FrontController->output() /home/ubuntu/workspace/proyecto/index.php:10
+[25-Oct-2016 12:29:02 UTC] PHP   3. ViewGato->render() /home/ubuntu/workspace/proyecto/clases/FrontController.php:31
+[25-Oct-2016 12:38:02 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/ubuntu/workspace/proyecto/clases/ControllerGato.php on line 7
+[25-Oct-2016 12:38:02 UTC] PHP Stack trace:
+[25-Oct-2016 12:38:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto/index.php:0
+[25-Oct-2016 12:38:02 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/proyecto/index.php:8
+[25-Oct-2016 12:38:02 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/proyecto/index.php:21
+[25-Oct-2016 12:38:02 UTC] PHP   4. AutoLoad::load() /home/ubuntu/workspace/proyecto/index.php:21
+[10-Jan-2017 12:24:10 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:10 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:24:10 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:10 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:24:35 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:35 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:24:35 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:35 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:24:37 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:37 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:24:37 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:37 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:24:37 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:37 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:24:37 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:37 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:24:59 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:59 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:24:59 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:24:59 UTC] PHP Stack trace:
+[10-Jan-2017 12:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:00 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:00 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:00 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:00 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:01 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:01 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:02 UTC] PHP Warning:  require(clases/AutoLoad.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:02 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:25:02 UTC] PHP Fatal error:  require(): Failed opening required 'clases/AutoLoad.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_discos/index.php on line 3
+[10-Jan-2017 12:25:02 UTC] PHP Stack trace:
+[10-Jan-2017 12:25:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:30:00 UTC] PHP Fatal error:  Class 'Util' not found in /home/ubuntu/workspace/proyecto_discos/class/View.php on line 18
+[10-Jan-2017 12:30:00 UTC] PHP Stack trace:
+[10-Jan-2017 12:30:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 12:30:00 UTC] PHP   2. FrontController->output() /home/ubuntu/workspace/proyecto_discos/index.php:10
+[10-Jan-2017 12:30:00 UTC] PHP   3. View->render() /home/ubuntu/workspace/proyecto_discos/class/FrontController.php:31
+[10-Jan-2017 13:09:50 UTC] PHP Fatal error:  Class 'ModelUser' not found in /home/ubuntu/workspace/proyecto_discos/class/FrontController.php on line 19
+[10-Jan-2017 13:09:50 UTC] PHP Stack trace:
+[10-Jan-2017 13:09:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_discos/index.php:0
+[10-Jan-2017 13:09:50 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/proyecto_discos/index.php:8
+[12-Jan-2017 07:41:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/discos/clases/DataBase.php on line 82
+[12-Jan-2017 07:41:15 UTC] PHP Stack trace:
+[12-Jan-2017 07:41:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[12-Jan-2017 07:41:15 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[12-Jan-2017 07:41:15 UTC] PHP   3. ControllerUsuario->dologin() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[12-Jan-2017 07:41:15 UTC] PHP   4. ModelUsuario->getUsuario() /home/ubuntu/workspace/discos/clases/ControllerUsuario.php:9
+[12-Jan-2017 07:41:15 UTC] PHP   5. Gestorusuario->get() /home/ubuntu/workspace/discos/clases/ModelUsuario.php:7
+[12-Jan-2017 07:41:15 UTC] PHP   6. DataBase->getCursorParameters() /home/ubuntu/workspace/discos/clases/GestorUsuario.php:18
+[12-Jan-2017 07:41:15 UTC] PHP   7. DataBase->getCursor() /home/ubuntu/workspace/discos/clases/DataBase.php:213
+[12-Jan-2017 07:41:15 UTC] PHP   8. DataBase->send() /home/ubuntu/workspace/discos/clases/DataBase.php:208
+[12-Jan-2017 07:42:06 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/discos/clases/DataBase.php on line 82
+[12-Jan-2017 07:42:06 UTC] PHP Stack trace:
+[12-Jan-2017 07:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[12-Jan-2017 07:42:06 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[12-Jan-2017 07:42:06 UTC] PHP   3. ControllerUsuario->dologin() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[12-Jan-2017 07:42:06 UTC] PHP   4. ModelUsuario->getUsuario() /home/ubuntu/workspace/discos/clases/ControllerUsuario.php:9
+[12-Jan-2017 07:42:06 UTC] PHP   5. Gestorusuario->get() /home/ubuntu/workspace/discos/clases/ModelUsuario.php:7
+[12-Jan-2017 07:42:06 UTC] PHP   6. DataBase->getCursorParameters() /home/ubuntu/workspace/discos/clases/GestorUsuario.php:18
+[12-Jan-2017 07:42:06 UTC] PHP   7. DataBase->getCursor() /home/ubuntu/workspace/discos/clases/DataBase.php:213
+[12-Jan-2017 07:42:06 UTC] PHP   8. DataBase->send() /home/ubuntu/workspace/discos/clases/DataBase.php:208
+[12-Jan-2017 07:42:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/discos/clases/DataBase.php on line 82
+[12-Jan-2017 07:42:20 UTC] PHP Stack trace:
+[12-Jan-2017 07:42:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[12-Jan-2017 07:42:20 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[12-Jan-2017 07:42:20 UTC] PHP   3. ControllerUsuario->dologin() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[12-Jan-2017 07:42:20 UTC] PHP   4. ModelUsuario->getUsuario() /home/ubuntu/workspace/discos/clases/ControllerUsuario.php:9
+[12-Jan-2017 07:42:20 UTC] PHP   5. Gestorusuario->get() /home/ubuntu/workspace/discos/clases/ModelUsuario.php:7
+[12-Jan-2017 07:42:20 UTC] PHP   6. DataBase->getCursorParameters() /home/ubuntu/workspace/discos/clases/GestorUsuario.php:18
+[12-Jan-2017 07:42:20 UTC] PHP   7. DataBase->getCursor() /home/ubuntu/workspace/discos/clases/DataBase.php:213
+[12-Jan-2017 07:42:20 UTC] PHP   8. DataBase->send() /home/ubuntu/workspace/discos/clases/DataBase.php:208
+[12-Jan-2017 08:15:19 UTC] PHP Fatal error:  Call to undefined method ControllerUsuario::getSession() in /home/ubuntu/workspace/discos/clases/ControllerUsuario.php on line 12
+[12-Jan-2017 08:15:19 UTC] PHP Stack trace:
+[12-Jan-2017 08:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[12-Jan-2017 08:15:19 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[12-Jan-2017 08:15:19 UTC] PHP   3. ControllerUsuario->dologin() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[12-Jan-2017 08:17:40 UTC] PHP Fatal error:  Call to a member function setUser() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerUsuario.php on line 12
+[12-Jan-2017 08:17:40 UTC] PHP Stack trace:
+[12-Jan-2017 08:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[12-Jan-2017 08:17:40 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[12-Jan-2017 08:17:40 UTC] PHP   3. ControllerUsuario->dologin() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[12-Jan-2017 08:26:36 UTC] PHP Fatal error:  Call to a member function setUser() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerUsuario.php on line 14
+[12-Jan-2017 08:26:36 UTC] PHP Stack trace:
+[12-Jan-2017 08:26:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[12-Jan-2017 08:26:36 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[12-Jan-2017 08:26:36 UTC] PHP   3. ControllerUsuario->dologin() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[12-Jan-2017 08:26:39 UTC] PHP Fatal error:  Call to a member function setUser() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerUsuario.php on line 14
+[12-Jan-2017 08:26:39 UTC] PHP Stack trace:
+[12-Jan-2017 08:26:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[12-Jan-2017 08:26:39 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[12-Jan-2017 08:26:39 UTC] PHP   3. ControllerUsuario->dologin() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[12-Jan-2017 08:38:25 UTC] PHP Catchable fatal error:  Object of class Session could not be converted to string in /home/ubuntu/workspace/discos/clases/ControllerUsuario.php on line 13
+[12-Jan-2017 08:38:25 UTC] PHP Stack trace:
+[12-Jan-2017 08:38:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[12-Jan-2017 08:38:25 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[12-Jan-2017 08:38:25 UTC] PHP   3. ControllerUsuario->dologin() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[17-Jan-2017 12:01:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/discos/clases/Controller.php on line 44
+[17-Jan-2017 12:01:27 UTC] PHP Stack trace:
+[17-Jan-2017 12:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[17-Jan-2017 12:01:27 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[17-Jan-2017 12:01:27 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/discos/index.php:21
+[17-Jan-2017 12:01:27 UTC] PHP   4. AutoLoad::load() /home/ubuntu/workspace/discos/index.php:21
+[17-Jan-2017 12:01:27 UTC] PHP   5. require_once() /home/ubuntu/workspace/discos/clases/AutoLoad.php:7
+[17-Jan-2017 12:01:27 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/discos/clases/AutoLoad.php:3
+[17-Jan-2017 12:01:27 UTC] PHP   7. AutoLoad::load() /home/ubuntu/workspace/discos/clases/AutoLoad.php:3
+[19-Jan-2017 07:37:45 UTC] PHP Fatal error:  Call to undefined method ModelDisco::getDisco() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 22
+[19-Jan-2017 07:37:45 UTC] PHP Stack trace:
+[19-Jan-2017 07:37:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:37:45 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:37:45 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:39:09 UTC] PHP Fatal error:  Call to undefined method Disco::getIdDisco() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 22
+[19-Jan-2017 07:39:09 UTC] PHP Stack trace:
+[19-Jan-2017 07:39:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:39:09 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:39:09 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:41:05 UTC] PHP Fatal error:  Class 'GestorDiscoAutor' not found in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 11
+[19-Jan-2017 07:41:05 UTC] PHP Stack trace:
+[19-Jan-2017 07:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:41:05 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:41:05 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:41:05 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 07:42:03 UTC] PHP Fatal error:  Call to undefined method Disco::getIdDisco() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 07:42:03 UTC] PHP Stack trace:
+[19-Jan-2017 07:42:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:42:03 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:42:03 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:43:30 UTC] PHP Fatal error:  Call to undefined method Disco::getIdDisco() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 07:43:30 UTC] PHP Stack trace:
+[19-Jan-2017 07:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:43:30 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:43:30 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:47:01 UTC] PHP Fatal error:  Call to undefined method Disco::getIdDisco() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 07:47:01 UTC] PHP Stack trace:
+[19-Jan-2017 07:47:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:47:01 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:47:01 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:48:08 UTC] PHP Fatal error:  Call to undefined method Disco::getIdDisco() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 07:48:08 UTC] PHP Stack trace:
+[19-Jan-2017 07:48:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:48:08 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:48:08 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:48:51 UTC] PHP Fatal error:  Call to undefined method Disco::getIdDisco() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 07:48:51 UTC] PHP Stack trace:
+[19-Jan-2017 07:48:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:48:51 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:48:51 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:49:25 UTC] PHP Fatal error:  Call to undefined method Disco::getId_disco() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 07:49:25 UTC] PHP Stack trace:
+[19-Jan-2017 07:49:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:49:25 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:49:25 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:50:14 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 07:50:14 UTC] PHP Stack trace:
+[19-Jan-2017 07:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:50:14 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:50:14 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 07:55:41 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 07:55:41 UTC] PHP Stack trace:
+[19-Jan-2017 07:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 07:55:41 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 07:55:41 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:00:54 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 08:00:54 UTC] PHP Stack trace:
+[19-Jan-2017 08:00:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:00:54 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:00:54 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:02:21 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 08:02:21 UTC] PHP Stack trace:
+[19-Jan-2017 08:02:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:02:21 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:02:21 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:02:25 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 28
+[19-Jan-2017 08:02:25 UTC] PHP Stack trace:
+[19-Jan-2017 08:02:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:02:25 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:02:25 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:02:56 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 29
+[19-Jan-2017 08:02:56 UTC] PHP Stack trace:
+[19-Jan-2017 08:02:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:02:56 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:02:56 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:05:32 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 29
+[19-Jan-2017 08:05:32 UTC] PHP Stack trace:
+[19-Jan-2017 08:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:05:32 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:05:32 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:11:45 UTC] PHP Fatal error:  Call to undefined method ModelDisco::getAutor() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 24
+[19-Jan-2017 08:11:45 UTC] PHP Stack trace:
+[19-Jan-2017 08:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:11:45 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:11:45 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:13:50 UTC] PHP Fatal error:  Class 'ModelDisco' not found in /home/ubuntu/workspace/discos/clases/FrontController.php on line 19
+[19-Jan-2017 08:13:50 UTC] PHP Stack trace:
+[19-Jan-2017 08:13:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:13:50 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:14:49 UTC] PHP Fatal error:  Call to undefined method DiscoAutor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 24
+[19-Jan-2017 08:14:49 UTC] PHP Stack trace:
+[19-Jan-2017 08:14:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:14:49 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:14:49 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:17:48 UTC] PHP Warning:  Missing argument 1 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:17:48 UTC] PHP Stack trace:
+[19-Jan-2017 08:17:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:17:48 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:17:48 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:17:48 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:17:48 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:17:48 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:17:48 UTC] PHP Warning:  Missing argument 2 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:17:48 UTC] PHP Stack trace:
+[19-Jan-2017 08:17:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:17:48 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:17:48 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:17:48 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:17:48 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:17:48 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:17:48 UTC] PHP Fatal error:  Call to undefined method Disco_Autor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 24
+[19-Jan-2017 08:17:48 UTC] PHP Stack trace:
+[19-Jan-2017 08:17:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:17:48 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:17:48 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:20:16 UTC] PHP Warning:  Missing argument 1 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:20:16 UTC] PHP Stack trace:
+[19-Jan-2017 08:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:20:16 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:20:16 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:20:16 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:20:16 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:20:16 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:20:16 UTC] PHP Warning:  Missing argument 2 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:20:16 UTC] PHP Stack trace:
+[19-Jan-2017 08:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:20:16 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:20:16 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:20:16 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:20:16 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:20:16 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:20:16 UTC] PHP Fatal error:  Call to undefined method Disco_Autor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 24
+[19-Jan-2017 08:20:16 UTC] PHP Stack trace:
+[19-Jan-2017 08:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:20:16 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:20:16 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:20:18 UTC] PHP Warning:  Missing argument 1 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:20:18 UTC] PHP Stack trace:
+[19-Jan-2017 08:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:20:18 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:20:18 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:20:18 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:20:18 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:20:18 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:20:18 UTC] PHP Warning:  Missing argument 2 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:20:18 UTC] PHP Stack trace:
+[19-Jan-2017 08:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:20:18 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:20:18 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:20:18 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:20:18 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:20:18 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:20:18 UTC] PHP Fatal error:  Call to undefined method Disco_Autor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 24
+[19-Jan-2017 08:20:18 UTC] PHP Stack trace:
+[19-Jan-2017 08:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:20:18 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:20:18 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:22:07 UTC] PHP Warning:  Missing argument 1 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:22:07 UTC] PHP Stack trace:
+[19-Jan-2017 08:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:22:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:22:07 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:22:07 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:22:07 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:22:07 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:22:07 UTC] PHP Warning:  Missing argument 2 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:22:07 UTC] PHP Stack trace:
+[19-Jan-2017 08:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:22:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:22:07 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:22:07 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:22:07 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:22:07 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:22:07 UTC] PHP Fatal error:  Call to undefined method Disco_Autor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 24
+[19-Jan-2017 08:22:07 UTC] PHP Stack trace:
+[19-Jan-2017 08:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:22:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:22:07 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:22:07 UTC] PHP Warning:  Missing argument 1 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:22:07 UTC] PHP Stack trace:
+[19-Jan-2017 08:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:22:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:22:07 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:22:07 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:22:07 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:22:07 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:22:07 UTC] PHP Warning:  Missing argument 2 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:22:07 UTC] PHP Stack trace:
+[19-Jan-2017 08:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:22:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:22:07 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:22:07 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:22:07 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:22:07 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:22:07 UTC] PHP Fatal error:  Call to undefined method Disco_Autor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 24
+[19-Jan-2017 08:22:07 UTC] PHP Stack trace:
+[19-Jan-2017 08:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:22:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:22:07 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:22:07 UTC] PHP Warning:  Missing argument 1 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:22:07 UTC] PHP Stack trace:
+[19-Jan-2017 08:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:22:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:22:07 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:22:07 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:22:07 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:22:07 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:22:07 UTC] PHP Warning:  Missing argument 2 for Disco_Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php on line 29 and defined in /home/ubuntu/workspace/discos/clases/Disco_Autor.php on line 7
+[19-Jan-2017 08:22:07 UTC] PHP Stack trace:
+[19-Jan-2017 08:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:22:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:22:07 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:22:07 UTC] PHP   4. ModelDisco->getDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:22
+[19-Jan-2017 08:22:07 UTC] PHP   5. GestorDiscoAutor->getDiscoAutores() /home/ubuntu/workspace/discos/clases/ModelDisco.php:12
+[19-Jan-2017 08:22:07 UTC] PHP   6. Disco_Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorDiscoAutor.php:29
+[19-Jan-2017 08:22:07 UTC] PHP Fatal error:  Call to undefined method Disco_Autor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 24
+[19-Jan-2017 08:22:07 UTC] PHP Stack trace:
+[19-Jan-2017 08:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:22:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:22:07 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:23:52 UTC] PHP Fatal error:  Call to undefined method Disco_Autor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 24
+[19-Jan-2017 08:23:52 UTC] PHP Stack trace:
+[19-Jan-2017 08:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:23:52 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:23:52 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:24:40 UTC] PHP Warning:  Missing argument 1 for Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorAutor.php on line 27 and defined in /home/ubuntu/workspace/discos/clases/Autor.php on line 7
+[19-Jan-2017 08:24:40 UTC] PHP Stack trace:
+[19-Jan-2017 08:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:24:40 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:24:40 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:24:40 UTC] PHP   4. ModelDisco->getAutor() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:24
+[19-Jan-2017 08:24:40 UTC] PHP   5. GestorAutor->get() /home/ubuntu/workspace/discos/clases/ModelDisco.php:17
+[19-Jan-2017 08:24:40 UTC] PHP   6. Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorAutor.php:27
+[19-Jan-2017 08:24:40 UTC] PHP Warning:  Missing argument 2 for Autor::__construct(), called in /home/ubuntu/workspace/discos/clases/GestorAutor.php on line 27 and defined in /home/ubuntu/workspace/discos/clases/Autor.php on line 7
+[19-Jan-2017 08:24:40 UTC] PHP Stack trace:
+[19-Jan-2017 08:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:24:40 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:24:40 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:24:40 UTC] PHP   4. ModelDisco->getAutor() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:24
+[19-Jan-2017 08:24:40 UTC] PHP   5. GestorAutor->get() /home/ubuntu/workspace/discos/clases/ModelDisco.php:17
+[19-Jan-2017 08:24:40 UTC] PHP   6. Autor->__construct() /home/ubuntu/workspace/discos/clases/GestorAutor.php:27
+[19-Jan-2017 08:28:50 UTC] PHP Fatal error:  Call to undefined method Autor::getAutor() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 35
+[19-Jan-2017 08:28:50 UTC] PHP Stack trace:
+[19-Jan-2017 08:28:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:28:50 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:28:50 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:29:19 UTC] PHP Fatal error:  Call to undefined method Autor::getAutor() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 35
+[19-Jan-2017 08:29:19 UTC] PHP Stack trace:
+[19-Jan-2017 08:29:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:29:19 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:29:19 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:29:23 UTC] PHP Fatal error:  Call to undefined method Autor::getAutor() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 35
+[19-Jan-2017 08:29:23 UTC] PHP Stack trace:
+[19-Jan-2017 08:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:29:23 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:29:23 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:29:23 UTC] PHP Fatal error:  Call to undefined method Autor::getAutor() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 35
+[19-Jan-2017 08:29:23 UTC] PHP Stack trace:
+[19-Jan-2017 08:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:29:23 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:29:23 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:29:23 UTC] PHP Fatal error:  Call to undefined method Autor::getAutor() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 35
+[19-Jan-2017 08:29:23 UTC] PHP Stack trace:
+[19-Jan-2017 08:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:29:23 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:29:23 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:47:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/discos/clases/ControllerUsuario.php on line 52
+[19-Jan-2017 08:47:56 UTC] PHP Stack trace:
+[19-Jan-2017 08:47:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:47:56 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:47:56 UTC] PHP   3. ControllerUsuario->view_usuarios() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:48:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/discos/clases/ControllerUsuario.php on line 52
+[19-Jan-2017 08:48:21 UTC] PHP Stack trace:
+[19-Jan-2017 08:48:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:48:21 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:48:21 UTC] PHP   3. ControllerUsuario->view_usuarios() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 08:48:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/discos/clases/ControllerUsuario.php on line 52
+[19-Jan-2017 08:48:23 UTC] PHP Stack trace:
+[19-Jan-2017 08:48:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 08:48:23 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 08:48:23 UTC] PHP   3. ControllerUsuario->view_usuarios() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:21:57 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 55
+[19-Jan-2017 09:21:57 UTC] PHP Stack trace:
+[19-Jan-2017 09:21:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:21:57 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:21:57 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:22:30 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 55
+[19-Jan-2017 09:22:30 UTC] PHP Stack trace:
+[19-Jan-2017 09:22:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:22:30 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:22:30 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:22:38 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 55
+[19-Jan-2017 09:22:38 UTC] PHP Stack trace:
+[19-Jan-2017 09:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:22:38 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:22:38 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:22:38 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 55
+[19-Jan-2017 09:22:38 UTC] PHP Stack trace:
+[19-Jan-2017 09:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:22:38 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:22:38 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:22:38 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 55
+[19-Jan-2017 09:22:38 UTC] PHP Stack trace:
+[19-Jan-2017 09:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:22:38 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:22:38 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:23:58 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 55
+[19-Jan-2017 09:23:58 UTC] PHP Stack trace:
+[19-Jan-2017 09:23:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:23:58 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:23:58 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:23:59 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 55
+[19-Jan-2017 09:23:59 UTC] PHP Stack trace:
+[19-Jan-2017 09:23:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:23:59 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:23:59 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:23:59 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 55
+[19-Jan-2017 09:23:59 UTC] PHP Stack trace:
+[19-Jan-2017 09:23:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:23:59 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:23:59 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:24:23 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 55
+[19-Jan-2017 09:24:23 UTC] PHP Stack trace:
+[19-Jan-2017 09:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:24:23 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:24:23 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:25:26 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 58
+[19-Jan-2017 09:25:26 UTC] PHP Stack trace:
+[19-Jan-2017 09:25:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:25:26 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:25:26 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:25:44 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 58
+[19-Jan-2017 09:25:44 UTC] PHP Stack trace:
+[19-Jan-2017 09:25:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:25:44 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:25:44 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:26:04 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 58
+[19-Jan-2017 09:26:04 UTC] PHP Stack trace:
+[19-Jan-2017 09:26:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:26:04 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:26:04 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:29:54 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 63
+[19-Jan-2017 09:29:54 UTC] PHP Stack trace:
+[19-Jan-2017 09:29:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:29:54 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:29:54 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:31:00 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 65
+[19-Jan-2017 09:31:00 UTC] PHP Stack trace:
+[19-Jan-2017 09:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:31:00 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:31:00 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:32:40 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 65
+[19-Jan-2017 09:32:40 UTC] PHP Stack trace:
+[19-Jan-2017 09:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:32:40 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:32:40 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:32:41 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 65
+[19-Jan-2017 09:32:41 UTC] PHP Stack trace:
+[19-Jan-2017 09:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:32:41 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:32:41 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:32:42 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 65
+[19-Jan-2017 09:32:42 UTC] PHP Stack trace:
+[19-Jan-2017 09:32:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:32:42 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:32:42 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:33:14 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 65
+[19-Jan-2017 09:33:14 UTC] PHP Stack trace:
+[19-Jan-2017 09:33:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:33:14 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:33:14 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[19-Jan-2017 09:36:21 UTC] PHP Fatal error:  Call to undefined method ModelDisco::getDisco_DiscoAutor() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 50
+[19-Jan-2017 09:36:21 UTC] PHP Stack trace:
+[19-Jan-2017 09:36:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[19-Jan-2017 09:36:21 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[19-Jan-2017 09:36:21 UTC] PHP   3. ControllerDisco->view_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[22-Jan-2017 17:42:27 UTC] PHP Fatal error:  Call to undefined method ModelDisco::getListTitulo() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 67
+[22-Jan-2017 17:42:27 UTC] PHP Stack trace:
+[22-Jan-2017 17:42:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[22-Jan-2017 17:42:27 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[22-Jan-2017 17:42:27 UTC] PHP   3. ControllerDisco->view_discos_titulo() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[22-Jan-2017 17:44:08 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 91
+[22-Jan-2017 17:44:08 UTC] PHP Stack trace:
+[22-Jan-2017 17:44:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[22-Jan-2017 17:44:08 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[22-Jan-2017 17:44:08 UTC] PHP   3. ControllerDisco->view_discos_titulo() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 17:07:22 UTC] PHP Fatal error:  Call to undefined method Controller::main() in /home/ubuntu/workspace/discos/clases/FrontController.php on line 26
+[26-Jan-2017 17:07:23 UTC] PHP Stack trace:
+[26-Jan-2017 17:07:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 17:07:23 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 18:25:08 UTC] PHP Fatal error:  Class 'PageController' not found in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 93
+[26-Jan-2017 18:25:08 UTC] PHP Stack trace:
+[26-Jan-2017 18:25:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 18:25:08 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 18:25:08 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 18:25:08 UTC] PHP   4. Controller->getDiscoPageController() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:222
+[26-Jan-2017 18:25:08 UTC] PHP   5. ModelDisco->getDiscosPageController() /home/ubuntu/workspace/discos/clases/Controller.php:25
+[26-Jan-2017 18:38:10 UTC] PHP Fatal error:  Class 'PageController' not found in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 93
+[26-Jan-2017 18:38:10 UTC] PHP Stack trace:
+[26-Jan-2017 18:38:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 18:38:10 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 18:38:10 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 18:38:10 UTC] PHP   4. Controller->getDiscoPageController() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:222
+[26-Jan-2017 18:38:10 UTC] PHP   5. ModelDisco->getDiscosPageController() /home/ubuntu/workspace/discos/clases/Controller.php:25
+[26-Jan-2017 19:00:40 UTC] PHP Fatal error:  Class 'PageController' not found in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 93
+[26-Jan-2017 19:00:40 UTC] PHP Stack trace:
+[26-Jan-2017 19:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:00:40 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:00:40 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:00:40 UTC] PHP   4. Controller->getDiscoPageController() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:261
+[26-Jan-2017 19:00:40 UTC] PHP   5. ModelDisco->getDiscosPageController() /home/ubuntu/workspace/discos/clases/Controller.php:25
+[26-Jan-2017 19:02:27 UTC] PHP Fatal error:  Class 'PageController' not found in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 93
+[26-Jan-2017 19:02:27 UTC] PHP Stack trace:
+[26-Jan-2017 19:02:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:02:27 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:02:27 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:02:27 UTC] PHP   4. Controller->getDiscoPageController() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:261
+[26-Jan-2017 19:02:27 UTC] PHP   5. ModelDisco->getDiscosPageController() /home/ubuntu/workspace/discos/clases/Controller.php:25
+[26-Jan-2017 19:03:20 UTC] PHP Fatal error:  Call to undefined function getSession() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 278
+[26-Jan-2017 19:03:20 UTC] PHP Stack trace:
+[26-Jan-2017 19:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:03:20 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:03:20 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:04:31 UTC] PHP Fatal error:  Call to undefined function getSession() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 278
+[26-Jan-2017 19:04:31 UTC] PHP Stack trace:
+[26-Jan-2017 19:04:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:04:31 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:04:31 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:04:59 UTC] PHP Fatal error:  Call to undefined function getSession() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 278
+[26-Jan-2017 19:04:59 UTC] PHP Stack trace:
+[26-Jan-2017 19:04:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:04:59 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:04:59 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:05:28 UTC] PHP Fatal error:  Call to undefined function getSession() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 278
+[26-Jan-2017 19:05:28 UTC] PHP Stack trace:
+[26-Jan-2017 19:05:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:05:28 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:05:28 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:05:32 UTC] PHP Fatal error:  Call to undefined function getSession() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 278
+[26-Jan-2017 19:05:32 UTC] PHP Stack trace:
+[26-Jan-2017 19:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:05:32 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:05:32 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:05:35 UTC] PHP Fatal error:  Call to undefined function getSession() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 278
+[26-Jan-2017 19:05:35 UTC] PHP Stack trace:
+[26-Jan-2017 19:05:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:05:35 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:05:35 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:07:32 UTC] PHP Fatal error:  Call to undefined method ModelDisco::getDisco_DiscoAutores() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 268
+[26-Jan-2017 19:07:32 UTC] PHP Stack trace:
+[26-Jan-2017 19:07:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:07:32 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:07:32 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:08:59 UTC] PHP Fatal error:  Call to undefined function getAutor() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 272
+[26-Jan-2017 19:08:59 UTC] PHP Stack trace:
+[26-Jan-2017 19:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:08:59 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:08:59 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:09:18 UTC] PHP Fatal error:  Call to undefined function getSession() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 278
+[26-Jan-2017 19:09:18 UTC] PHP Stack trace:
+[26-Jan-2017 19:09:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:09:18 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:09:18 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:55:25 UTC] PHP Fatal error:  Call to undefined method ModelDisco::getDisco_DiscoAutores() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 297
+[26-Jan-2017 19:55:25 UTC] PHP Stack trace:
+[26-Jan-2017 19:55:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:55:25 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:55:25 UTC] PHP   3. ControllerDisco->view_lista_discos_titulo() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:56:00 UTC] PHP Fatal error:  Call to undefined function getAutor() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 301
+[26-Jan-2017 19:56:00 UTC] PHP Stack trace:
+[26-Jan-2017 19:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:56:00 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:56:00 UTC] PHP   3. ControllerDisco->view_lista_discos_titulo() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:56:15 UTC] PHP Fatal error:  Call to undefined function getSession() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 307
+[26-Jan-2017 19:56:15 UTC] PHP Stack trace:
+[26-Jan-2017 19:56:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:56:15 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:56:15 UTC] PHP   3. ControllerDisco->view_lista_discos_titulo() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:56:37 UTC] PHP Fatal error:  Call to undefined function getSession() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 336
+[26-Jan-2017 19:56:37 UTC] PHP Stack trace:
+[26-Jan-2017 19:56:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:56:37 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:56:37 UTC] PHP   3. ControllerDisco->view_lista_discos_autor() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:57:12 UTC] PHP Fatal error:  Call to undefined method ModelDisco::getDisco_DiscoAutores() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 326
+[26-Jan-2017 19:57:12 UTC] PHP Stack trace:
+[26-Jan-2017 19:57:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:57:12 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:57:12 UTC] PHP   3. ControllerDisco->view_lista_discos_autor() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:57:34 UTC] PHP Fatal error:  Call to undefined method Autor::getTitle() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 333
+[26-Jan-2017 19:57:34 UTC] PHP Stack trace:
+[26-Jan-2017 19:57:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:57:34 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:57:34 UTC] PHP   3. ControllerDisco->view_lista_discos_autor() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:57:37 UTC] PHP Fatal error:  Call to undefined method Autor::getTitle() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 333
+[26-Jan-2017 19:57:37 UTC] PHP Stack trace:
+[26-Jan-2017 19:57:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:57:37 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:57:37 UTC] PHP   3. ControllerDisco->view_lista_discos_autor() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 19:58:16 UTC] PHP Fatal error:  Call to undefined method Autor::getTitle() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 333
+[26-Jan-2017 19:58:16 UTC] PHP Stack trace:
+[26-Jan-2017 19:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 19:58:16 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 19:58:16 UTC] PHP   3. ControllerDisco->view_lista_discos_autor() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[26-Jan-2017 20:01:33 UTC] PHP Fatal error:  Call to undefined method Autor::getTitle() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 335
+[26-Jan-2017 20:01:33 UTC] PHP Stack trace:
+[26-Jan-2017 20:01:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[26-Jan-2017 20:01:33 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[26-Jan-2017 20:01:33 UTC] PHP   3. ControllerDisco->view_lista_discos_autor() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[04-Feb-2017 15:19:38 UTC] PHP Fatal error:  Call to undefined method Autor::getTitle() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 336
+[04-Feb-2017 15:19:38 UTC] PHP Stack trace:
+[04-Feb-2017 15:19:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[04-Feb-2017 15:19:38 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[04-Feb-2017 15:19:38 UTC] PHP   3. ControllerDisco->view_lista_discos_autor() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[04-Feb-2017 17:22:30 UTC] PHP Fatal error:  Call to undefined method ModelDisco::getAutor_DiscoAutores() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 458
+[04-Feb-2017 17:22:30 UTC] PHP Stack trace:
+[04-Feb-2017 17:22:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[04-Feb-2017 17:22:30 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[04-Feb-2017 17:22:30 UTC] PHP   3. ControllerDisco->view_search() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[04-Feb-2017 17:23:43 UTC] PHP Fatal error:  Call to undefined method ModelDisco::getAutor_DiscoAutores() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 458
+[04-Feb-2017 17:23:43 UTC] PHP Stack trace:
+[04-Feb-2017 17:23:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[04-Feb-2017 17:23:43 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[04-Feb-2017 17:23:43 UTC] PHP   3. ControllerDisco->view_search() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[04-Feb-2017 17:24:10 UTC] PHP Fatal error:  Call to undefined method Disco_Autor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 460
+[04-Feb-2017 17:24:10 UTC] PHP Stack trace:
+[04-Feb-2017 17:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[04-Feb-2017 17:24:10 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[04-Feb-2017 17:24:10 UTC] PHP   3. ControllerDisco->view_search() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[04-Feb-2017 17:58:52 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 293
+[04-Feb-2017 17:58:52 UTC] PHP Stack trace:
+[04-Feb-2017 17:58:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[04-Feb-2017 17:58:52 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[04-Feb-2017 17:58:52 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[04-Feb-2017 17:59:29 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 293
+[04-Feb-2017 17:59:29 UTC] PHP Stack trace:
+[04-Feb-2017 17:59:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[04-Feb-2017 17:59:29 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[04-Feb-2017 17:59:29 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[04-Feb-2017 18:31:27 UTC] PHP Fatal error:  Call to undefined method Disco_Autor::getId() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 444
+[04-Feb-2017 18:31:27 UTC] PHP Stack trace:
+[04-Feb-2017 18:31:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[04-Feb-2017 18:31:27 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[04-Feb-2017 18:31:27 UTC] PHP   3. ControllerDisco->view_search() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 17:46:07 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 17:46:07 UTC] PHP Stack trace:
+[05-Feb-2017 17:46:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 17:46:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 17:46:07 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 17:46:07 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:57
+[05-Feb-2017 17:46:07 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 17:50:12 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 17:50:12 UTC] PHP Stack trace:
+[05-Feb-2017 17:50:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 17:50:12 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 17:50:12 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 17:50:12 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:57
+[05-Feb-2017 17:50:12 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:11:42 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:11:42 UTC] PHP Stack trace:
+[05-Feb-2017 18:11:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:11:42 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:11:42 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:11:42 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:11:42 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:16:07 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:16:07 UTC] PHP Stack trace:
+[05-Feb-2017 18:16:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:16:07 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:16:07 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:16:07 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:16:07 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:16:08 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:16:08 UTC] PHP Stack trace:
+[05-Feb-2017 18:16:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:16:08 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:16:08 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:16:08 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:16:08 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:16:09 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:16:09 UTC] PHP Stack trace:
+[05-Feb-2017 18:16:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:16:09 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:16:09 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:16:09 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:16:09 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:20:19 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:20:19 UTC] PHP Stack trace:
+[05-Feb-2017 18:20:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:20:19 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:20:19 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:20:19 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:20:19 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:20:20 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:20:20 UTC] PHP Stack trace:
+[05-Feb-2017 18:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:20:20 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:20:20 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:20:20 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:20:20 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:22:12 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:22:12 UTC] PHP Stack trace:
+[05-Feb-2017 18:22:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:22:12 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:22:12 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:22:12 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:22:12 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:22:13 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:22:13 UTC] PHP Stack trace:
+[05-Feb-2017 18:22:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:22:13 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:22:13 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:22:13 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:22:13 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:22:15 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:22:15 UTC] PHP Stack trace:
+[05-Feb-2017 18:22:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:22:15 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:22:15 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:22:15 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:22:15 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:27:02 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:27:02 UTC] PHP Stack trace:
+[05-Feb-2017 18:27:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:27:02 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:27:02 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:27:02 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:27:02 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:27:46 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:27:46 UTC] PHP Stack trace:
+[05-Feb-2017 18:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:27:46 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:27:46 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:27:46 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:27:46 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:28:05 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:28:05 UTC] PHP Stack trace:
+[05-Feb-2017 18:28:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:28:05 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:28:05 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:28:05 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:28:05 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:28:11 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:28:11 UTC] PHP Stack trace:
+[05-Feb-2017 18:28:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:28:11 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:28:11 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:28:11 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:28:11 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:28:18 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:28:18 UTC] PHP Stack trace:
+[05-Feb-2017 18:28:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:28:18 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:28:18 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:28:18 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:28:18 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:28:33 UTC] PHP Catchable fatal error:  Argument 1 passed to GestorDisco::save() must be an instance of Disco, null given, called in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 67 and defined in /home/ubuntu/workspace/discos/clases/GestorDisco.php on line 98
+[05-Feb-2017 18:28:33 UTC] PHP Stack trace:
+[05-Feb-2017 18:28:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:28:33 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:28:33 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[05-Feb-2017 18:28:33 UTC] PHP   4. ModelDisco->editDisco() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:60
+[05-Feb-2017 18:28:33 UTC] PHP   5. GestorDisco->save() /home/ubuntu/workspace/discos/clases/ModelDisco.php:67
+[05-Feb-2017 18:42:46 UTC] PHP Fatal error:  Call to undefined method Disco::getIdDisco() in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 65
+[05-Feb-2017 18:42:46 UTC] PHP Stack trace:
+[05-Feb-2017 18:42:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[05-Feb-2017 18:42:46 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[05-Feb-2017 18:42:46 UTC] PHP   3. ControllerDisco->doedit() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[06-Feb-2017 07:56:59 UTC] PHP Fatal error:  Call to undefined method GestorAutor::getRow() in /home/ubuntu/workspace/discos/clases/GestorAutor.php on line 76
+[06-Feb-2017 07:56:59 UTC] PHP Stack trace:
+[06-Feb-2017 07:56:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[06-Feb-2017 07:56:59 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[06-Feb-2017 07:56:59 UTC] PHP   3. ControllerDisco->view_lista_discos_autor() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[06-Feb-2017 07:56:59 UTC] PHP   4. ModelDisco->getNewDiscosPorAutor() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:391
+[06-Feb-2017 07:56:59 UTC] PHP   5. GestorAutor->getNewPage() /home/ubuntu/workspace/discos/clases/ModelDisco.php:113
+[06-Feb-2017 08:21:09 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 305
+[06-Feb-2017 08:21:09 UTC] PHP Stack trace:
+[06-Feb-2017 08:21:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[06-Feb-2017 08:21:09 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[06-Feb-2017 08:21:09 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[06-Feb-2017 08:21:28 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 305
+[06-Feb-2017 08:21:28 UTC] PHP Stack trace:
+[06-Feb-2017 08:21:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[06-Feb-2017 08:21:28 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[06-Feb-2017 08:21:28 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[06-Feb-2017 08:35:52 UTC] PHP Fatal error:  Call to a member function getId() on a non-object in /home/ubuntu/workspace/discos/clases/ControllerDisco.php on line 129
+[06-Feb-2017 08:35:52 UTC] PHP Stack trace:
+[06-Feb-2017 08:35:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[06-Feb-2017 08:35:52 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[06-Feb-2017 08:35:52 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[06-Feb-2017 08:38:54 UTC] PHP Fatal error:  Call to undefined method GestorDisco::getPageDisco() in /home/ubuntu/workspace/discos/clases/ModelDisco.php on line 98
+[06-Feb-2017 08:38:54 UTC] PHP Stack trace:
+[06-Feb-2017 08:38:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/discos/index.php:0
+[06-Feb-2017 08:38:54 UTC] PHP   2. FrontController->__construct() /home/ubuntu/workspace/discos/index.php:8
+[06-Feb-2017 08:38:54 UTC] PHP   3. ControllerDisco->view_lista_discos() /home/ubuntu/workspace/discos/clases/FrontController.php:24
+[06-Feb-2017 08:38:54 UTC] PHP   4. ModelDisco->getDiscos() /home/ubuntu/workspace/discos/clases/ControllerDisco.php:123

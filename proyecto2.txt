@@ -1,0 +1,48 @@
+PROYECTO ACTIVIDADES
+
+1.- ANTECEDENTES
+
+Una empresa quiere realizar una aplicacion web para gestionar las actividades
+extraescolares de un IES. El desarrollo se debe realizar en 5 semanas.
+
+2.- REQUISITOS
+
+Las actividades son realizadas por los profesores y se realizan con un grupo
+del centro. 
+
+>> Informacion relacionada con una actividad:
+
+    Profesor
+    Departamento
+    Grupo
+    Titulo corto
+    Descripcion
+    Fecha
+    Lugar
+    Hora de inicio
+    Hora de finalizacion
+    Fotografia (opcional)
+    
+>> Informacion profesor
+    
+    Nombre completo
+    Departamento
+    DNI
+    Contraseña
+    Miembro directivo
+    
+>> Informacion grupos
+
+    Nombre del grupo
+    Nivel
+    
+Cada profesor puede dar de alta y modificar solo sus propias actividades. Los 
+profesores del equipo directivo pueden dar de alta y modificar cualquier 
+actividad.
+
+- Consulta de actividades
+- Consulta de actividades entre dos fechas
+- Consulta de actividades de un grupo
+- Consulta de actividades por profesor
+
+Gestion de datos con AJAX
